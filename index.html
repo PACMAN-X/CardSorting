@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js">
+  <!--<![endif]-->
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>CARD SORTING</title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Moves</h1>
+      <div class="totalnumber">0</div>
+    </header>
+    <div class="list_start_container">
+      <div class="list list_start">
+        <div id="1" class="list-item" draggable="true">?</div>
+        <div id="2" class="list-item" draggable="true">?</div>
+        <div id="3" class="list-item" draggable="true">?</div>
+        <div id="4" class="list-item" draggable="true">?</div>
+        <div id="5" class="list-item" draggable="true">?</div>
+        <div id="6" class="list-item" draggable="true">?</div>
+        <div id="7" class="list-item" draggable="true">?</div>
+        <div id="8" class="list-item" draggable="true">?</div>
+        <div id="9" class="list-item" draggable="true">?</div>
+        <div id="10" class="list-item" draggable="true">?</div>
+      </div>
+    </div>
+    <div class="scale_container">
+      <div class="scale_column">
+        <div class="list list_scale scale_left">
+          이곳에 카드를 올리세요.
+        </div>
+      </div>
+      <div class="scale_column scale_result"></div>
+      <div class="scale_column">
+        <div class="list list_scale scale_right">
+          이곳에 카드를 올리세요.
+        </div>
+      </div>
+    </div>
+    <div class="list_end_container">
+      <div title="1" class="list list_end">첫번째</div>
+      <div title="2" class="list list_end">두번째</div>
+      <div title="3" class="list list_end">세번째</div>
+      <div title="4" class="list list_end">네번째</div>
+      <div title="5" class="list list_end">다섯번째</div>
+      <div title="6" class="list list_end">여섯번째</div>
+      <div title="7" class="list list_end">일곱번째</div>
+      <div title="8" class="list list_end">여덟번째</div>
+      <div title="9" class="list list_end">아홉번째</div>
+      <div title="10" class="list list_end">열번째</div>
+    </div>
+    <div class="btnContainer">
+      <button class="checkBtn" onclick="check()">Check</button>
+    </div>
+    <script src="./main.js"></script>
+  </body>
+</html>
